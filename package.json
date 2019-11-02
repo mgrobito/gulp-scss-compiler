@@ -1,0 +1,24 @@
+{
+  "name": "gulp-scss-compiler",
+  "version": "1.0.0",
+  "description": "gulp scss compile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santrosrana/gulp-scss-compiler.git"
+  },
+  "author": "Santosh Uchiha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/santrosrana/gulp-scss-compiler/issues"
+  },
+  "homepage": "https://github.com/santrosrana/gulp-scss-compiler#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}
