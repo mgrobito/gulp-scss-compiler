@@ -13,11 +13,13 @@ function style() {
 function serve(){
 	browserSync.init({
 		server:{
-			baseDir:'./dist'
+			baseDir:'./dist',
+			index: "/index.html"
 		}
 	});
-	gulp.watch('src/sass/*.scss', style);
+	gulp.watch('src/sass/**/*.scss', style);
 	gulp.watch('dist/*.html').on('change', browserSync.reload);
+	gulp.watch('dist/js/**/*.js').on('change', browserSync.reload);
 }
 
 exports.style = style;
